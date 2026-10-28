@@ -15,7 +15,7 @@ import gas_stovePhoto from './assets/photos/gas-stove.jpg'
 import geyserPhoto from './assets/photos/geyser.jpg'
 import mixer_inductionPhoto from './assets/photos/mixer-induction.jpg'
 
-export const SHOP={name:'SuperCool Belgaum Electronic Services',phoneDisplay:'+91 63637 65973',phoneTel:'+916363765973',whatsapp:'916363765973',address:'Belagavi (Belgaum), Karnataka, India',credit:'CubicCode',creditUrl:'https://www.cubiccode.in/',creditTitle:'Best Website and WebApps Designing and Development Company in Belgaum and Bangalore, Karnataka, India - Cubiccode Digital Media LLP - ISO 9001:2015 Certified Company.'};
+export const SHOP={name:'Home Cool Service',phoneDisplay:'+91 63637 65973',phoneTel:'+916363765973',whatsapp:'916363765973',address:'Belagavi (Belgaum), Karnataka, India',credit:'CubicCode',creditUrl:'https://www.cubiccode.in/',creditTitle:'Best Website and WebApps Designing and Development Company in Belgaum and Bangalore, Karnataka, India - Cubiccode Digital Media LLP - ISO 9001:2015 Certified Company.'};
 
 export const SERVICES=[
 {name:'AC Repair',photo:acPhoto,alt:'AC repair in Belgaum',desc:'AC repair in Belgaum and the best AC service near you. Blue Star AC repair and service centre, Samsung AC repair and other brands: gas refilling, cooling and leakage problems, plus jet-wash servicing for split and window ACs.'},

@@ -6,7 +6,7 @@ const Brand=()=>h('a',{className:'brand',href:'#top','aria-label':SHOP.name},
   h('svg',{width:44,height:44,viewBox:'0 0 46 46','aria-hidden':'true'},
     h('rect',{width:46,height:46,rx:13,fill:'#1F5EFF'}),
     h('g',{stroke:'#fff',strokeWidth:3,strokeLinecap:'round'},h('path',{d:'M23 11v24M12.6 17l20.8 12M12.6 29l20.8-12'}))),
-  h('span',null,h('b',null,'Super',h('i',null,'Cool')),h('small',null,'Belgaum Electronic Services')));
+  h('span',null,h('b',null,'Home ',h('i',null,'Cool'),' Service'),h('small',null,'Appliance repair in Belgaum')));
 
 export const Nav=({on})=>{
   const [act,setAct]=useState('');
