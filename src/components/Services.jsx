@@ -1,7 +1,7 @@
 import { createElement as h, useRef } from 'react'
-import { SERVICES } from '../data'
+import { SERVICES, SHOP } from '../data'
 import { Icon } from '../icons'
-import { Call } from './Buttons'
+import { Call, WA } from './Buttons'
 
 function Card({s,i}){
   const ref=useRef(null);
@@ -13,7 +13,7 @@ function Card({s,i}){
     h('div',{className:'cb'},
       h('span',{className:'idx'},String(i+1).padStart(2,'0')),
       h('h3',null,s.name),h('p',null,s.desc),
-      h(Call,{label:'Call Now',cls:'btn btn-line',aria:'Call us about '+s.name})));
+      h('div',{className:'acts'},h(Call,{label:'Call Now · '+SHOP.phoneDisplay,cls:'btn btn-line',aria:'Call us about '+s.name}),h(WA,{text:'Hello, I need '+s.name+' service in Belgaum.',cls:'btn btn-wa btn-full'}))));
 }
 
 const Services=()=>h('section',{className:'sec',id:'services'},h('div',{className:'wrap'},
