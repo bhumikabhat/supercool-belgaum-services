@@ -8,6 +8,7 @@ import Brands from './components/Brands'
 import WhyUs from './components/WhyUs'
 import Contact from './components/Contact'
 import Foot from './components/Footer'
+import WhatsAppFloat from './components/WhatsAppFloat'
 
 export default function App() {
   const [on, setOn] = useState(false)
@@ -17,5 +18,6 @@ export default function App() {
     h('div', { className: 'prog' }),
     h(Nav, { on }),
     h('main', null, h(Hero), h(Marquee), h(Services), h(Brands), h(WhyUs), h(Contact)),
-    h(Foot))
+    h(Foot),
+    h(WhatsAppFloat))
 }
